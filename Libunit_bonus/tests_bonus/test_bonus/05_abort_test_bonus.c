@@ -17,7 +17,7 @@ int	abort_test_bonus(int fd)
 	char	str[8];
 	char	str2[5];
 
-	ft_dprintf(fd, "\n\n02_strcat_abort_test_bonus\n\n");
+	ft_dprintf(fd, "\n\n05_abort_test_bonus\n\n");
 	str[0] = 'b';
 	str[1] = 'o';
 	str[2] = 'n';
@@ -30,12 +30,12 @@ int	abort_test_bonus(int fd)
 	str2[4] = '\0';
 	if (ft_strcat(str, str2))
 	{
-		ft_dprintf(fd, "02 : [OK]\n");
+		ft_dprintf(fd, "05 : [OK]\n");
 		return (0);
 	}
 	else
 	{
-		ft_dprintf(fd, "01 : [KO]\n");
+		ft_dprintf(fd, "05 : [KO]\n");
 		ft_dprintf(fd, ">>%d\n<<bonjourouaf\n");
 		return (-1);
 	}

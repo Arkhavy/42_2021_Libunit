@@ -16,8 +16,8 @@ int	ischarset_null_test_bonus(int fd)
 {
 	int	res;
 
-	res = ft_ischarset('o', NULL);
 	ft_dprintf(fd, "\n\n03_ischarset_null_test_bonus\n\n");
+	res = ft_ischarset('o', NULL);
 	if (res == 1)
 	{
 		ft_dprintf(fd, "03 : [OK]\n");

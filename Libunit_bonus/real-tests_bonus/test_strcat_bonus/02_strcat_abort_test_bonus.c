@@ -35,7 +35,7 @@ int	strcat_abort_test_bonus(int fd)
 	}
 	else
 	{
-		ft_dprintf(fd, "01 : [KO]\n");
+		ft_dprintf(fd, "02 : [KO]\n");
 		ft_dprintf(fd, ">>%d\n<<bonjourouaf\n");
 		return (-1);
 	}

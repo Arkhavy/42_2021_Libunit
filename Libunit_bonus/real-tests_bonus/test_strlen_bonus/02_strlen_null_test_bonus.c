@@ -16,7 +16,7 @@ int	strlen_null_test_bonus(int fd)
 {
 	int	res;
 
-	ft_dprintf(fd, "\n\n01_strlen_basic_test_bonus\n\n");
+	ft_dprintf(fd, "\n\n02_strlen_null_test_bonus\n\n");
 	res = ft_strlen(NULL);
 	if (res == 5)
 	{

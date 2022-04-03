@@ -14,11 +14,12 @@
 
 int	ill_test_bonus(int fd)
 {
-	asm (".byte 0x0f, 0x0b");
+	
 	ft_dprintf(fd, "\n\n07_ill_test_bonus\n\n");
 	ft_dprintf(fd, "07 : [KO]\n");
 	ft_dprintf(fd, ">>[1]    76545 illegal hardware instruction  \
 	./a.out\n<<IDFK, IM TIRED\n");
+	asm (".byte 0x0f, 0x0b");
 	if (1)
 		return (0);
 	else

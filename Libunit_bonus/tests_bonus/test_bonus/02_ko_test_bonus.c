@@ -16,8 +16,8 @@ int	ko_test_bonus(int fd)
 {
 	int	res;
 
-	res = ft_strlen("ouaf");
 	ft_dprintf(fd, "\n\n02_ko_test_bonus\n\n");
+	res = ft_strlen("ouaf");
 	if (res == 8)
 	{
 		ft_dprintf(fd, "02 : [OK]\n");
